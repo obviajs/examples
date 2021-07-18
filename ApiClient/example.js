@@ -1,4 +1,4 @@
-import { ApiClientGen } from "../../lib/ApiClientGen/ApiClientGen.js";
+import { ApiClientGen } from "../../lib/OpenApi/ApiClientGen.js";
 import { download } from "../../lib/my.js";
 
 let urlArr = [
@@ -30,7 +30,7 @@ for (let i = 0; i < urlArr.length; i++) {
 }
 
 /*
- GaiaAPI_Utils.generateAndLoadDataView(url, 10).then(function (aex) {
+ OpenAPI_utils.generateAndLoadDataView(url, 10).then(function (aex) {
     console.log(aex);
 });
 */

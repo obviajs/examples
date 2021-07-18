@@ -230,9 +230,9 @@ rjs.define("/flowerui/components/kanban/Kanban.js", "Kanban");
 rjs.define("/flowerui/components/kanban/css/kanban_default.css", "kanban_default_css");
 
 rjs.define("/flowerui/lib/yaml.js", "yaml");
-rjs.define("/flowerui/lib/ApiClientGen/ApiClient.js", "ApiClient");
-rjs.define("/flowerui/lib/ApiClientGen/ApiClientGen.js", "ApiClientGen");
-rjs.define("/flowerui/lib/ApiClientGen/OAMethod.js", "OAMethod");
+rjs.define("/flowerui/lib/OpenApi/HttpClient.js", "ApiClient");
+rjs.define("/flowerui/lib/OpenApi/ApiClientGen.js", "ApiClientGen");
+rjs.define("/flowerui/lib/OpenApi/OAMethod.js", "OAMethod");
 
 rjs.define("/flowerui/lib/LAN/ip_discovery.js", "ip_discovery");
 rjs.define("/flowerui/lib/P3Com/Command.js", "Command");

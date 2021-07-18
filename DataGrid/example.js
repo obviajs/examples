@@ -2,11 +2,11 @@ import { AutoCompleteEx } from "../../components/AutoComplete/AutoCompleteEx.js"
 import { Button } from "../../components/Button/Button.js";
 import { DataGrid } from "../../components/DataGrid/DataGrid.js";
 import { TextInput } from "../../components/TextInput/TextInput.js";
-import { ApiClient } from "../../lib/ApiClientGen/ApiClient.js";
+import { HttpClient } from "../../lib/OpenApi/HttpClient.js";
 import { ArrayEx } from "../../lib/ArrayEx.js";
 
 var myDataGrid;
-let apiClient = new ApiClient();
+let apiClient = new HttpClient();
 
 apiClient.get("https://api.mocki.io/v1/83a89b16").then(r => {
     myDataGrid = new DataGrid({
