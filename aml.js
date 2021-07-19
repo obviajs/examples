@@ -8,10 +8,10 @@
 // import { myAutoBrowser } from "./examples/Autobrowse/example.js";
 
 
-import { rjs } from "/flowerui/lib/rjs.js";
+import { rjs } from "/obvia/lib/rjs.js";
 
-rjs.define("/flowerui/lib/yaml.js", "yaml");
-// rjs.define("/flowerui/lib/dependencies/scripts/moment.js", "MomentJS");
+rjs.define("/obvia/lib/yaml.js", "yaml");
+// rjs.define("/obvia/lib/dependencies/scripts/moment.js", "MomentJS");
 
 
-//import generateApi from "/flowerui/examples/ApiClient/example.js";
+//import generateApi from "/obvia/examples/ApiClient/example.js";
